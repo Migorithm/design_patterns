@@ -1,19 +1,3 @@
-"""
-- Problem
-Imagine that you’re creating a data mining application that analyzes corporate documents. 
-Users feed the app documents in various formats (PDF, DOC, CSV), and 
-it tries to extract meaningful data from these docs in a uniform format.
-
-The first version of the app could work only with DOC files. 
-In the following version, it was able to support CSV files. 
-A month later, you “taught” it to extract data from PDF files.
-
-At some point, you noticed that all three classes have a lot of similar code. 
-While the code for dealing with various data formats was entirely different in all classes, 
-the code for data processing and analysis is almost identical. 
-Wouldn’t it be great to get rid of the code duplication, leaving the algorithm structure intact?
-"""
-
 from abc import ABC, abstractmethod
 
 
